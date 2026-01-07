@@ -5,6 +5,7 @@ import News from './components/News';
 function App() {
 // Create a State to store the selected category
 const [category, setCategory] = useState("general");
+
 return (
 <div className="App">
 <h1>News Application</h1>
